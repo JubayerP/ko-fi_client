@@ -9,7 +9,7 @@ const Menu = () => {
         .then(data => setMenus(data))
     },[])
     return (
-        <div className='bg-[#010103]'>
+        <div className='bg-[#010103] pb-20'>
             <div className='text-center space-y-2 py-20'>
             <p className='text-primary text-xl font-nav'>Popular Item</p>
             <h1 className='text-white text-5xl font-bold uppercase font-body'>Cofee Build Your Base</h1>
